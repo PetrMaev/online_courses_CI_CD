@@ -6,10 +6,10 @@
 ## Установка:
 1. Клонируйте репозиторий:
 ```python
-https://github.com/PetrMaev/online_courses.git
+https://github.com/PetrMaev/online_courses_CI_CD.git
 ```
 ```python
-git@github.com:PetrMaev/online_courses.git
+git@github.com:PetrMaev/online_courses_CI_CD.git
 ```
 2. Установите зависимости:
 ```python
