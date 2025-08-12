@@ -1,0 +1,10 @@
+[
+{
+    "model": "materials.subscribe",
+    "pk": 1,
+    "fields": {
+        "user": 8,
+        "course": 2
+    }
+}
+]

@@ -1,0 +1,268 @@
+[
+{
+    "model": "users.payments",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "date": "2025-06-25T00:00:00Z",
+        "paid_course": 2,
+        "paid_lesson": 1,
+        "amount": 125000,
+        "pay_method": "cash",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 3,
+    "fields": {
+        "user": 2,
+        "date": "2025-06-25T00:00:00Z",
+        "paid_course": 2,
+        "paid_lesson": 3,
+        "amount": 114000,
+        "pay_method": "transfer",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 4,
+    "fields": {
+        "user": 2,
+        "date": "2025-06-25T00:00:00Z",
+        "paid_course": 2,
+        "paid_lesson": 1,
+        "amount": 125000,
+        "pay_method": "cash",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 5,
+    "fields": {
+        "user": 2,
+        "date": "2025-06-25T00:00:00Z",
+        "paid_course": 2,
+        "paid_lesson": 3,
+        "amount": 114000,
+        "pay_method": "transfer",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 6,
+    "fields": {
+        "user": 2,
+        "date": "2025-06-07T00:00:00Z",
+        "paid_course": 2,
+        "paid_lesson": 4,
+        "amount": 137000,
+        "pay_method": "transfer",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 7,
+    "fields": {
+        "user": 3,
+        "date": "2025-05-05T00:00:00Z",
+        "paid_course": 2,
+        "paid_lesson": 1,
+        "amount": 95000,
+        "pay_method": "cash",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 8,
+    "fields": {
+        "user": 2,
+        "date": "2025-06-21T00:00:00Z",
+        "paid_course": 3,
+        "paid_lesson": 5,
+        "amount": 110000,
+        "pay_method": "cash",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 9,
+    "fields": {
+        "user": 3,
+        "date": "2025-06-19T00:00:00Z",
+        "paid_course": 3,
+        "paid_lesson": 6,
+        "amount": 121000,
+        "pay_method": "cash",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 10,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-14T16:23:04.905Z",
+        "paid_course": null,
+        "paid_lesson": null,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 11,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-14T16:23:47.358Z",
+        "paid_course": 4,
+        "paid_lesson": null,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 12,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-14T16:24:18.558Z",
+        "paid_course": 4,
+        "paid_lesson": null,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": "cs_test_a107ZRuW31qOVXX6ctjYGF6RmVtdyzpTx1SjowmzTLNjQHx5RM7kyePFW5",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a107ZRuW31qOVXX6ctjYGF6RmVtdyzpTx1SjowmzTLNjQHx5RM7kyePFW5#fidkdWxOYHwnPyd1blpxYHZxWjA0V25JRHNXd2RccWJDQ3VdbVBvQ0F1PFYwa0ZKdnBhQW5MUTdSaU5UQWdtPGRJTXR8Y21gNUtLdDRmPWMyTWwyVjxKZmx2SkBdcGJwTWNyN2xSNGxrQFUzNTVUMk1nUmtCYicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 13,
+    "fields": {
+        "user": 6,
+        "date": "2025-07-14T16:35:51.707Z",
+        "paid_course": null,
+        "paid_lesson": 1,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": "cs_test_a1BKMxwA8m1K1lU3HzHpa8a9xfJUuDy2dgiN8iAVH56gClvGZocrzicA83",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1BKMxwA8m1K1lU3HzHpa8a9xfJUuDy2dgiN8iAVH56gClvGZocrzicA83#fidkdWxOYHwnPyd1blpxYHZxWjA0V25JRHNXd2RccWJDQ3VdbVBvQ0F1PFYwa0ZKdnBhQW5MUTdSaU5UQWdtPGRJTXR8Y21gNUtLdDRmPWMyTWwyVjxKZmx2SkBdcGJwTWNyN2xSNGxrQFUzNTVUMk1nUmtCYicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 14,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-15T15:15:56.042Z",
+        "paid_course": null,
+        "paid_lesson": 1,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": "cs_test_a1JB1eax2tIlykk9GRJJJMTOvU2S8ERcYVbvrnp4RJtatp9AxLF15gU0Ks",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1JB1eax2tIlykk9GRJJJMTOvU2S8ERcYVbvrnp4RJtatp9AxLF15gU0Ks#fidkdWxOYHwnPyd1blpxYHZxWjA0V25JRHNXd2RccWJDQ3VdbVBvQ0F1PFYwa0ZKdnBhQW5MUTdSaU5UQWdtPGRJTXR8Y21gNUtLdDRmPWMyTWwyVjxKZmx2SkBdcGJwTWNyN2xSNGxrQFUzNTVUMk1nUmtCYicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 15,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-15T15:33:32.049Z",
+        "paid_course": null,
+        "paid_lesson": null,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 16,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-15T15:35:06.256Z",
+        "paid_course": null,
+        "paid_lesson": null,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 17,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-15T15:35:53.029Z",
+        "paid_course": null,
+        "paid_lesson": 3,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": "cs_test_a1hnZKirw7cCgmn4Dm417veVMkKFuGdihQLThJDr7IYlC7p6yqGphsQseG",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1hnZKirw7cCgmn4Dm417veVMkKFuGdihQLThJDr7IYlC7p6yqGphsQseG#fidkdWxOYHwnPyd1blpxYHZxWjA0V25JRHNXd2RccWJDQ3VdbVBvQ0F1PFYwa0ZKdnBhQW5MUTdSaU5UQWdtPGRJTXR8Y21gNUtLdDRmPWMyTWwyVjxKZmx2SkBdcGJwTWNyN2xSNGxrQFUzNTVUMk1nUmtCYicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 18,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-22T20:46:19.584Z",
+        "paid_course": null,
+        "paid_lesson": 3,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 19,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-22T20:48:20.650Z",
+        "paid_course": null,
+        "paid_lesson": 3,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": "cs_test_a1bDqKbDdsopuIsaEupHSiIaHmxuB1H6T978qVNbptY2vrcFQmz9qBuxE2",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1bDqKbDdsopuIsaEupHSiIaHmxuB1H6T978qVNbptY2vrcFQmz9qBuxE2#fidkdWxOYHwnPyd1blpxYHZxWjA0V25JRHNXd2RccWJDQ3VdbVBvQ0F1PFYwa0ZKdnBhQW5MUTdSaU5UQWdtPGRJTXR8Y21gNUtLdDRmPWMyTWwyVjxKZmx2SkBdcGJwTWNyN2xSNGxrQFUzNTVUMk1nUmtCYicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 20,
+    "fields": {
+        "user": 3,
+        "date": "2025-07-22T21:08:46.802Z",
+        "paid_course": null,
+        "paid_lesson": 3,
+        "amount": 50000,
+        "pay_method": "transfer",
+        "session_id": "cs_test_a1vVzfydt7PD1r0GNjjLY6H6Jg9UCrL94GSzwp125GfX9rM8lKRvw89P6k",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1vVzfydt7PD1r0GNjjLY6H6Jg9UCrL94GSzwp125GfX9rM8lKRvw89P6k#fidkdWxOYHwnPyd1blpxYHZxWjA0V25JRHNXd2RccWJDQ3VdbVBvQ0F1PFYwa0ZKdnBhQW5MUTdSaU5UQWdtPGRJTXR8Y21gNUtLdDRmPWMyTWwyVjxKZmx2SkBdcGJwTWNyN2xSNGxrQFUzNTVUMk1nUmtCYicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+}
+]

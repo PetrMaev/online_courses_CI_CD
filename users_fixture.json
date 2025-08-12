@@ -1,0 +1,124 @@
+[
+{
+    "model": "users.customuser",
+    "pk": 2,
+    "fields": {
+        "password": "123qwe",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-06-25T18:58:45.170Z",
+        "email": "user1@mail.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$9u1cIhPsxgKFZ0f05BsI7M$8PzI4MYmHsOwvRs44PUcUzVIFBsCQ2bEvNnfL4slBUI=",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2025-06-25T19:30:26.766Z",
+        "email": "user22@mail.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 4,
+    "fields": {
+        "password": "123qwe123qwe",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2025-07-02T17:07:29.970Z",
+        "email": "new_user@mail.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "last_login": "2025-05-31T21:00:00Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$77squOSLDwrU8yiNpmPDri$cNkYfujXgLYs8otJGOGwtHvXUjgwPqb84qb22KvnY8Q=",
+        "is_superuser": true,
+        "first_name": "Admin",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-07-02T18:27:03.021Z",
+        "email": "admin@sky.pro",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "last_login": "2025-07-02T18:27:27.560Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$whaUdcqzcZLbHygMGx4yce$8YtoMeIz3IQrD9QZoYJXjQxoUdcylKtk3ozpS7CUUPg=",
+        "is_superuser": false,
+        "first_name": "Moder",
+        "last_name": "Moderov",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-07-02T18:31:35Z",
+        "email": "moder@sky.pro",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "last_login": null,
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$OrqammfmTUmnpu9PNM9Zdh$+5RV6E7E+6eq4dUMflvXi7bwbtXYFVMU9dti+/KayqU=",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-07-24T19:33:24.245Z",
+        "email": "louis.baton@yandex.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

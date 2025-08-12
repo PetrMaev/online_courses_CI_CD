@@ -1,0 +1,62 @@
+[
+{
+    "model": "materials.course",
+    "pk": 2,
+    "fields": {
+        "title": "Программирование",
+        "preview": "",
+        "description": "Курс по программированию",
+        "owner": null,
+        "is_subscribe": true,
+        "amount": 155000,
+        "is_paid": false,
+        "stripe_product_id": null,
+        "updated_at": "2025-07-31T18:02:25.403Z"
+    }
+},
+{
+    "model": "materials.course",
+    "pk": 3,
+    "fields": {
+        "title": "Веб-дизайн",
+        "preview": "",
+        "description": "Курс по веб-дизайну",
+        "owner": null,
+        "is_subscribe": false,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null,
+        "updated_at": "2025-07-23T18:57:18.619Z"
+    }
+},
+{
+    "model": "materials.course",
+    "pk": 4,
+    "fields": {
+        "title": "Программирование с нуля",
+        "preview": "",
+        "description": "Курс по программированию с нуля",
+        "owner": 3,
+        "is_subscribe": true,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null,
+        "updated_at": "2025-07-23T18:57:18.619Z"
+    }
+},
+{
+    "model": "materials.course",
+    "pk": 5,
+    "fields": {
+        "title": "Веб-дизайн",
+        "preview": "",
+        "description": "Курс по веб-дизайну",
+        "owner": 3,
+        "is_subscribe": false,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null,
+        "updated_at": "2025-07-23T18:57:18.619Z"
+    }
+}
+]

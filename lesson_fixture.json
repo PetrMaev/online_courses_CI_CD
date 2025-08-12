@@ -1,0 +1,257 @@
+[
+{
+    "model": "materials.lesson",
+    "pk": 1,
+    "fields": {
+        "title": "Python-разработчик",
+        "description": "Урок по Python-разработчик",
+        "preview": "",
+        "course": 2,
+        "video_link": null,
+        "owner": null,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 3,
+    "fields": {
+        "title": "Java-разработчик",
+        "description": "Урок по Java-разработчик",
+        "preview": "",
+        "course": 2,
+        "video_link": null,
+        "owner": null,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": "prod_SjFwQF8iHmsUv6"
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 4,
+    "fields": {
+        "title": "С++ программирование",
+        "description": "Урок по C++",
+        "preview": "",
+        "course": 2,
+        "video_link": null,
+        "owner": null,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 5,
+    "fields": {
+        "title": "Графический дизайнер",
+        "description": "Урок по графическому дизайну",
+        "preview": "",
+        "course": 3,
+        "video_link": null,
+        "owner": null,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 6,
+    "fields": {
+        "title": "Адаптивный дизайнер",
+        "description": "Урок по созданию сайтов, которые корректно отображаются на различных устройствах",
+        "preview": "",
+        "course": 3,
+        "video_link": null,
+        "owner": null,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 7,
+    "fields": {
+        "title": "Адаптивный дизайнер",
+        "description": "Урок по созданию сайтов, которые корректно отображаются на различных устройствах",
+        "preview": "",
+        "course": 3,
+        "video_link": null,
+        "owner": 6,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 8,
+    "fields": {
+        "title": "Адаптивный дизайнер",
+        "description": "Урок по созданию сайтов, которые корректно отображаются на различных устройствах",
+        "preview": "",
+        "course": 3,
+        "video_link": null,
+        "owner": null,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 9,
+    "fields": {
+        "title": "Адаптивный дизайнер",
+        "description": "Урок по созданию сайтов, которые корректно отображаются на различных устройствах",
+        "preview": "",
+        "course": 3,
+        "video_link": null,
+        "owner": null,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 10,
+    "fields": {
+        "title": "Дизайнер интерьера",
+        "description": "Урок по дизайну интерьера",
+        "preview": "",
+        "course": 3,
+        "video_link": null,
+        "owner": null,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 13,
+    "fields": {
+        "title": "test4",
+        "description": "About test4",
+        "preview": "",
+        "course": 4,
+        "video_link": null,
+        "owner": 3,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 14,
+    "fields": {
+        "title": "Программирование 1С",
+        "description": "Урок по программированию 1С",
+        "preview": "",
+        "course": 4,
+        "video_link": null,
+        "owner": 3,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 15,
+    "fields": {
+        "title": "Программирование C##",
+        "description": "Урок по программированию на C##",
+        "preview": "",
+        "course": 4,
+        "video_link": null,
+        "owner": 3,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 16,
+    "fields": {
+        "title": "Тест валидатора",
+        "description": "Урок по тестированию валидатора",
+        "preview": "",
+        "course": 4,
+        "video_link": "https://www.youtube.com/playlist?list=PL0lO_mIqDDFXgfuxOEDTCwsWmKezOaDTu",
+        "owner": 3,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 17,
+    "fields": {
+        "title": "Графический дизайнер",
+        "description": "Урок по графическому дизайну",
+        "preview": "",
+        "course": 5,
+        "video_link": "https://www.youtube.com/playlist?list=PL0lO_mIqDDFXgfuxOEDTCwsWmKezOaDTu",
+        "owner": 3,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 18,
+    "fields": {
+        "title": "Адаптивный дизайнер",
+        "description": "Урок по созданию сайтов, которые корректно отображаются на различных устройствах",
+        "preview": "",
+        "course": 5,
+        "video_link": "https://www.youtube.com/",
+        "owner": 3,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 19,
+    "fields": {
+        "title": "Дизайнер",
+        "description": "Урок по дизайнов",
+        "preview": "",
+        "course": 5,
+        "video_link": "https://www.youtube.com/",
+        "owner": 3,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 24,
+    "fields": {
+        "title": "Тест celery",
+        "description": "Тест celery",
+        "preview": "",
+        "course": 2,
+        "video_link": "https://www.youtube.com/",
+        "owner": 8,
+        "amount": null,
+        "is_paid": false,
+        "stripe_product_id": null
+    }
+}
+]
