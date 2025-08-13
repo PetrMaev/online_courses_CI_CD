@@ -23,7 +23,7 @@ services:
       - "80:80"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-      - static_volume:/online_courses/staticfiles
+      - static_volume:/online_courses_CI_CD/staticfiles
     depends_on:
       - web
 
