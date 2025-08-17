@@ -100,11 +100,11 @@ jobs:
           docker build --no-cache -t ${{ secrets.DOCKER_HUB_USERNAME }}/myapp:${{ github.sha }} .
 
       - name: Push Docker image in Docker hub
-        uses: docker/build-push-action@v6
+        run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/myapp:${{ github.sha }}
         with:
           context: .
           push: true
-        run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/myapp:${{ github.sha }}
+
 
   deploy:
     needs: build
