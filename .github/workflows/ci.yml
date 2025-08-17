@@ -1,6 +1,6 @@
 name: Django CI
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   lint:
@@ -25,6 +25,16 @@ jobs:
   test:
     needs: lint
     runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16.0
+        env:
+          DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
+          DATABASE_USER: ${{ secrets.DATABASE_USER }}
+          DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+        ports:
+          - 5432:5432
 
     steps:
       - name: Check out code
@@ -60,7 +70,7 @@ jobs:
           DATABASE_USER: ${{ secrets.DATABASE_USER }}
           DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
           POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
-          DATABASE_HOST: ${{ secrets.DATABASE_HOST }}
+          DATABASE_HOST: ${{ secrets.DB_HOST }}
           DATABASE_PORT: ${{ secrets.DATABASE_PORT }}
           STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY }}
           CELERY_BROKER_URL: ${{ secrets.CELERY_BROKER_URL }}
@@ -79,6 +89,7 @@ jobs:
           DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
           POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
           DATABASE_HOST: ${{ secrets.DB_HOST }}
+          DATABASE_PORT: ${{ secrets.DATABASE_PORT }}
           STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY }}
           CELERY_BROKER_URL: ${{ secrets.CELERY_BROKER_URL }}
           CELERY_RESULT_BACKEND: ${{ secrets.CELERY_RESULT_BACKEND }}
