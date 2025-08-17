@@ -65,24 +65,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run migrations
-        env:
-          SECRET_KEY: ${{ secrets.SECRET_KEY }}
-          DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
-          DATABASE_USER: ${{ secrets.DATABASE_USER }}
-          DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
-          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
-          DATABASE_HOST: ${{ secrets.DATABASE_HOST }}
-          DATABASE_PORT: ${{ secrets.DATABASE_PORT }}
-          STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY }}
-          CELERY_BROKER_URL: ${{ secrets.CELERY_BROKER_URL }}
-          CELERY_RESULT_BACKEND: ${{ secrets.CELERY_RESULT_BACKEND }}
-          EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
-          EMAIL_PORT: ${{ secrets.EMAIL_PORT }}
-          YA_EMAIL_HOST_USER: ${{ secrets.YA_EMAIL_HOST_USER }}
-          YA_EMAIL_HOST_PASSWORD: ${{ secrets.YA_EMAIL_HOST_PASSWORD }}
-        run: python manage.py migrate
-
       - name: Run tests
         env:
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
