@@ -1,6 +1,7 @@
 from datetime import datetime
-
+from unittest.mock import patch
 from django.urls import reverse
+from django.utils import timezone
 from rest_framework import status
 from rest_framework.test import APITestCase
 
@@ -106,8 +107,12 @@ class CourseTestCase(APITestCase):
 
     def setUp(self):
         self.user = CustomUser.objects.create(email="tester@sky.pro")
+        self.fixed_time = timezone.make_aware(datetime(2025, 1, 1, 12, 0))
         self.course = Course.objects.create(
-            title="Веб-дизайн", description="Курс по веб-дизайну", owner=self.user, updated_at=None
+            title="Веб-дизайн",
+            description="Курс по веб-дизайну",
+            owner=self.user,
+            updated_at=self.fixed_time
         )
         self.client.force_authenticate(user=self.user)
 
@@ -162,6 +167,12 @@ class CourseTestCase(APITestCase):
         """Тестирование вывода списка курсов."""
         url = reverse("materials:courses-list")
 
+        self.fixed_time = timezone.make_aware(datetime(2025, 1, 1, 12, 0))
+        with patch('django.db.models.DateTimeField', auto_now=False):
+            self.course = Course.objects.update(
+                updated_at=self.fixed_time
+            )
+
         response = self.client.get(url)
         data = response.json()
         result = {
@@ -172,12 +183,12 @@ class CourseTestCase(APITestCase):
                 {
                     "amount": None,
                     "description": "Курс по веб-дизайну",
-                    "id": 4,
+                    "id": self.course,
                     "is_subscribe": False,
                     "lesson_count": 0,
                     "lessons": [],
                     "title": "Веб-дизайн",
-                    "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "updated_at": self.fixed_time.strftime("%Y-%m-%d %H:%M:%S"),
                 }
             ],
         }

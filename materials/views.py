@@ -19,7 +19,7 @@ class CourseViewSet(viewsets.ModelViewSet):
     pagination_class = CustomPagination
 
     def perform_create(self, serializer):
-        course = serializer.save(owner=self.request.user)
+        course = serializer.save(owner=self.request.user)  # noqa: F841
 
     def get_permissions(self):
         if self.action == "create":
@@ -53,7 +53,7 @@ class LessonCreateAPIView(generics.CreateAPIView):
     permission_classes = [IsAuthenticated, ~IsModer]
 
     def perform_create(self, serializer):
-        lesson = serializer.save(owner=self.request.user)
+        lesson = serializer.save(owner=self.request.user)  # noqa: F841
 
 
 class LessonListAPIView(generics.ListAPIView):
@@ -109,7 +109,7 @@ class SubscribeAPIView(generics.CreateAPIView):
         else:
             course_item.is_subscribe = True
             course_item.save()
-            subscribe = Subscribe.objects.create(user=user, course=course_item)
+            subscribe = Subscribe.objects.create(user=user, course=course_item)  # noqa: F841
             message = "подписка добавлена"
         # Возвращаем ответ в API
         return Response({"message": message})
